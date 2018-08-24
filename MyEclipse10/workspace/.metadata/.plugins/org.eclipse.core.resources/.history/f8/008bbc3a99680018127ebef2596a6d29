@@ -1,0 +1,32 @@
+package cn.itcast.scm.service.impl;
+
+import cn.itcast.scm.entity.Supplier;
+import cn.itcast.scm.service.SupplierService;
+
+public class SupplierServiceImpl implements SupplierService {
+
+	@Override
+	public int insert(Supplier entity) throws Exception {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int update(Supplier entity) throws Exception {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int delete(Supplier entity) throws Exception {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public Supplier select(Supplier entity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

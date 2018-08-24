@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+tomcat7Server.scm32.IEARProjectName=
+tomcat7Server.scm32.altContextRoot=
+tomcat7Server.scm32.contextRoot=/scm32
+tomcat7Server.scm32.deployIsOverProject=false
+tomcat7Server.scm32.deploymentPath=C\:\\env\\apache-tomcat-7.0.57\\webapps\\scm32
+tomcat7Server.scm32.isDeployed=true
+tomcat7Server.scm32.isExploded=true
+tomcat7Server.scm32.isUptoDate=true
+tomcat7Server.scm32.noFileCopy=false
+tomcat7Server.scm32.shouldBackup=false
+tomcat7Server.scm32.shouldOverwrite=false
+tomcat7Server.scm32.type=WebDeployment

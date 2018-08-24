@@ -1,0 +1,42 @@
+#  Licensed to the Apache Software Foundation (ASF) under one or more
+#  contributor license agreements.  See the NOTICE file distributed with
+#  this work for additional information regarding copyright ownership.
+#  The ASF licenses this file to You under the Apache License, Version 2.0
+#  (the "License"); you may not use this file except in compliance with
+#  the License.  You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+#  Unless required by applicable law or agreed to in writing, software
+#  distributed under the License is distributed on an "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#  See the License for the specific language governing permissions and
+#  limitations under the License.
+
+# Repository base path
+repository=${user.home}/.maven/repository
+
+# The pathname of the collections classes JAR file
+commons-collections.home=${repository}/commons-collections/jars
+commons-collections.jar=${commons-collections.home}/commons-collections-3.2.1.jar
+commons-collections-testframework.jar=${commons-collections.home}/commons-collections-testframework-3.2.1.jar
+
+# The pathname of the Commons Logging JAR file
+commons-logging.home=${repository}/commons-logging/jars
+commons-logging.jar=${commons-logging.home}/commons-logging-1.1.1.jar
+
+# The pathname of the "junit.jar" JAR file
+junit.home=${repository}/junit/jars
+junit.jar=${junit.home}/junit-3.8.1.jar
+
+# Configuration Example for Commons Logging in maven
+maven.junit.fork=true
+maven.junit.sysproperties=org.apache.commons.logging.LogFactory org.apache.commons.logging.Log org.apache.commons.logging.simplelog.defaultlog
+org.apache.commons.logging.LogFactory=org.apache.commons.logging.impl.LogFactoryImpl
+org.apache.commons.logging.Log=org.apache.commons.logging.impl.SimpleLog
+org.apache.commons.logging.simplelog.defaultlog=debug
+
+# Maven properties (for web site build)
+# Those committers using agents may like to use
+#maven.username=rdonkin
+#beanutils.cvs=lserver:rdonkin@cvs.apache.org:/home/cvs
